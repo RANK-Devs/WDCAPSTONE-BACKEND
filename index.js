@@ -18,7 +18,7 @@ app.use(bodyParser.json({extended: true}));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(cookieParser());
 app.use(cors({
-    origin: 'https://wdcapstone-frontend1.onrender.com',
+    //origin: 'https://wdcapstone-frontend1.onrender.com',
     //credentials: true
 }));
 
