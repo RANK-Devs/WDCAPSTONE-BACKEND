@@ -2,7 +2,7 @@ import express from "express";
 import cors from 'cors';
 import { login, register, resetPassword, sendEmail } from "../controllers/auth.controller.js";
 
-app.use(cors());
+//app.use(cors());
 
 const router = express.Router();
 
